@@ -39,7 +39,7 @@ const Suggestion = () => {
         <SuggestionList heading="You May Also Like" cryptoCoins={cryptoCoins} />
         <SuggestionList heading="Trending Coins" cryptoCoins={cryptoCoins} />
       </div>
-      <div className=" 2xl:hidden flex justify-center my-3 ">
+      <div className=" 2xl:hidden  my-3 ">
         <RightContent />
       </div>
     </div>

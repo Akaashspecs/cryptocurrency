@@ -46,7 +46,7 @@ const Performance = () => {
           </div>
           <div className="grow w-auto block lg:flex flex-col items-start lg:items-end">
             {FundamentalRightSideTable.map((item) => (
-              <div className="flex h-[64px] border border-b-slate-400 border-x-0 border-t-0 xl:min-w-[500px] min-w-max max-w-[500px] justify-between pr-3 items-center">
+              <div className="flex h-[64px] border border-b-slate-400 border-x-0 border-t-0 xl:min-w-[500px]  max-w-[500px] justify-between pr-3 items-center">
                 <div className="text-slate-600 w-110 sm:w-[170px]">
                   {item.label}
                 </div>

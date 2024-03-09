@@ -23,8 +23,7 @@ const TokEnomics = () => {
       <SmallHeading headingText="Initial Distribution" customClassName="mt-3" />
       <Chart
         chartType="PieChart"
-        className="w-[400px]  sm:w-[600px]:"
-        height="400px"
+        className="w-[300px]  sm:w-[500px] lg-[600px] h-[300px]  sm:h-[500px] lg-[600px] "
         data={data}
         options={options}
       />
