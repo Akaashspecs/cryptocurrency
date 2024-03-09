@@ -8,10 +8,10 @@ const CoinXStart = () => {
         With our range of features that you can equip for free, KoinX allows you
         to be more educated and aware of your tax reports.
       </p>
-      <img src="../src/svjphoto/coinXstartLogo.svg" alt="SVG as an image" />
+      <img src="/svjphoto/coinXstartLogo.svg" alt="SVG as an image" />
       <button className="bg-white rounded-md  font-medium h-[48px] w-[237px] flex justify-center items-center">
         Get Started for FREE{" "}
-        <img src="../src/svjphoto/rightarrow.svg" alt="SVG as an image" />
+        <img src="/svjphoto/rightarrow.svg" alt="SVG as an image" />
       </button>
     </div>
   );
