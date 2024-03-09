@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="no-scroll1 flex mt-7 border border-b-gray-400 w-auto overflow-x-scroll scroll scroll-smooth whitespace-nowrap">
       {Headings.map((item) => (
-        <div onClick={(e: any) => handleHeadingClick(item.id)}>
+        <div onClick={() => handleHeadingClick(item.id)}>
           {selectedId === item.id && (
             <div className=" border border-b-2 border-b-blue-600 text-blue-600 px-6 font-semibold text-lg py-2">
               {item.name}

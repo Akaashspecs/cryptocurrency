@@ -1,9 +1,9 @@
 // TradingViewWidget.jsx
-import { relative } from "path";
-import React, { useEffect, useRef, memo, useState } from "react";
+
+import { useEffect, useRef, memo, useState } from "react";
 
 const TrendingGraph = () => {
-  const container = useRef();
+  const container = useRef<HTMLDivElement>(null);
   const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
