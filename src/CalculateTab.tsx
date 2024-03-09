@@ -22,7 +22,7 @@ const CalculateTab: React.FC<CalculateTabType> = ({
         </div>
         <button className="bg-white rounded-md  font-medium h-[32px] w-[132px] flex justify-center items-center mt-2">
           Check Now{" "}
-          <img src="/src/svjphoto/rightarrow.svg" alt="SVG as an image" />
+          <img src="../src/svjphoto/rightarrow.svg" alt="SVG as an image" />
         </button>
       </div>
     </div>

@@ -59,8 +59,8 @@ const TrendingCoins = () => {
                 <img
                   src={`${
                     coin?.item?.data.price_change_percentage_24h.usd >= 0
-                      ? "/src/svjphoto/trendingCoinsGreenArrow.svg"
-                      : "/src/svjphoto/trendingCoinsRedArrow.svg"
+                      ? "../src/svjphoto/trendingCoinsGreenArrow.svg"
+                      : "../src/svjphoto/trendingCoinsRedArrow.svg"
                   }`}
                   alt="SVG as an imag"
                   className={`${

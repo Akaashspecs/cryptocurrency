@@ -6,15 +6,15 @@ export const trendingCoinsTextandImage: {
 } = {
   bitcoin: {
     name: "Etherium(ETH)",
-    img: "/src/svjphoto/bitcoin.svg",
+    img: "../src/svjphoto/bitcoin.svg",
   },
   ethereum: {
     name: "Bitcoin(BTC)",
-    img: "/src/svjphoto/etherium.svg",
+    img: "../src/svjphoto/etherium.svg",
   },
   solana: {
     name: "Polygon(MATIC)",
-    img: "/src/svjphoto/polygon.svg",
+    img: "../src/svjphoto/polygon.svg",
   },
 };
 
@@ -83,7 +83,7 @@ export const SementicSliderData: {
   color: string;
 }[] = [
   {
-    img: "/src/svjphoto/lettericon.svg",
+    img: "../src/svjphoto/lettericon.svg",
     heading:
       "Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.",
     paragraph:
@@ -91,7 +91,7 @@ export const SementicSliderData: {
     color: "bg-sky-100",
   },
   {
-    img: "/src/svjphoto/graphupicon.svg",
+    img: "../src/svjphoto/graphupicon.svg",
     heading:
       "Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.",
     paragraph:
@@ -99,7 +99,7 @@ export const SementicSliderData: {
     color: "bg-green-100",
   },
   {
-    img: "/src/svjphoto/lettericon.svg",
+    img: "../src/svjphoto/lettericon.svg",
     heading:
       "Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.",
     paragraph:
@@ -130,21 +130,21 @@ export const memberDetails: {
   detail: string;
 }[] = [
   {
-    img: "/src/svjphoto/emp1.svg",
+    img: "../src/svjphoto/emp1.svg",
     name: "John Smith",
     profile: "Developer",
     detail:
       "Lorem ipsum dolor sit amet consectetur. In justo rutrum sit sit fermentum ut libero hendrerit id. Tellus sit ornare netus sagittis in nunc convallis mattis maecenas. Tempus arcu leo sociis laoreet nec neque sed pellentesque viverra. Consectetur proin amet ut id facilisi quis consectetur. Tellus gravida ultricies feugiat sed eu egestas dolor est ipsum. Malesuada etiam mi gravida praesent interdu",
   },
   {
-    img: "/src/svjphoto/emp2.svg",
+    img: "../src/svjphoto/emp2.svg",
     name: "Elina Williams",
     profile: "Margeter",
     detail:
       "Lorem ipsum dolor sit amet consectetur. In justo rutrum sit sit fermentum ut libero hendrerit id. Tellus sit ornare netus sagittis in nunc convallis mattis maecenas. Tempus arcu leo sociis laoreet nec neque sed pellentesque viverra. Consectetur proin amet ut id facilisi quis consectetur. Tellus gravida ultricies feugiat sed eu egestas dolor est ipsum. Malesuada etiam mi gravida praesent interdu",
   },
   {
-    img: "/src/svjphoto/emp3.svg",
+    img: "../src/svjphoto/emp3.svg",
     name: "John Smith",
     profile: "Supervisor",
     detail:
