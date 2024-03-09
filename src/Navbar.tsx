@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className="bg-white w-full h-20 drop-shadow-md   flex justify-between items-center ">
       <div className="ml-16">
-        <img src="/svjphoto/logo.svg" alt="SVG as an image" />
+        <img src="/src/svjphoto/logo.svg" alt="SVG as an image" />
       </div>
       <div className="mr-16 hidden justify-between w-3/6 lg:w-5/12   sm:flex ">
         {/* {process.env.REACT_APP_TRENDING_COIN} */}
@@ -14,7 +14,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className="sm:hidden block mr-5">
-        <img src="/svjphoto/dropdown.svg" alt="SVG as an image" />
+        <img src="/src/svjphoto/dropdown.svg" alt="SVG as an image" />
       </div>
     </div>
   );

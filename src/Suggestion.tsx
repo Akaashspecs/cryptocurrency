@@ -33,8 +33,6 @@ const Suggestion = () => {
     fetchData();
   }, []);
 
-  console.log("sdsdsd", cryptoCoins);
-
   return (
     <div>
       <div className="bg-white p-12 relative ">

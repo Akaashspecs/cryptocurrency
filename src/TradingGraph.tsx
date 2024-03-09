@@ -29,8 +29,7 @@ const TrendingGraph = () => {
           "hide_volume": true,
           "support_host": "https://www.tradingview.com"
         }`;
-      console.log(script);
-      !container!.current!.appendChild(script);
+      container!.current!.appendChild(script);
 
       setInitialized(true);
     }

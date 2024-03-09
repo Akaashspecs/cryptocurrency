@@ -28,12 +28,12 @@ const About = () => {
       <Heading headingText="Already Holding Bitcoin?" customClassName="mt-5" />
       <div className="flex flex-wrap justify-center sm:justify-start">
         <CalculateTab
-          imgSrc="/svjphoto/profit.svg"
+          imgSrc="/src/svjphoto/profit.svg"
           heading="Calculate your Profits"
           backgroundColor="from-teal-400 from-10% via-teal-500 via-50%  to-sky-700"
         />
         <CalculateTab
-          imgSrc="/svjphoto/liability.svg"
+          imgSrc="/src/svjphoto/liability.svg"
           heading="Calculate your tax liability"
           backgroundColor="from-orange-500 from-10% via-orange-600 via-50%  to-red-800"
         />

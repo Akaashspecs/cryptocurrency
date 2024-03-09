@@ -35,7 +35,7 @@ const Graph = () => {
         Object.keys(bitcoinPrice).map((coin, i) => (
           <div key={i} className="flex mt-5 flex-col">
             <div className="flex  items-center">
-              <img src="/svjphoto/bitcoinLogo.svg" alt="SVG as an imag" />
+              <img src="/src/svjphoto/bitcoinLogo.svg" alt="SVG as an imag" />
               <div className="pl-2 font-semibold text-2xl">
                 {capitalizeFirstLetter(coin)}
               </div>
@@ -62,8 +62,8 @@ const Graph = () => {
                 <img
                   src={`${
                     bitcoinPrice[coin].usd_24h_change >= 0
-                      ? "/svjphoto/trendingCoinsGreenArrow.svg"
-                      : "/svjphoto/trendingCoinsRedArrow.svg"
+                      ? "/src/svjphoto/trendingCoinsGreenArrow.svg"
+                      : "/src/svjphoto/trendingCoinsRedArrow.svg"
                   }`}
                   alt="SVG as an imag"
                 />
