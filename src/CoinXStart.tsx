@@ -1,7 +1,7 @@
 const CoinXStart = () => {
   return (
-    <div className="w-[426px] h-[515px] bg-blue-700 rounded-md py-9 flex flex-col justify-between items-center">
-      <p className="text-2xl font-semibold text-white w-64  text-center">
+    <div className="w-screen  2xl:w-[426px] h-[515px] bg-blue-700 rounded-md py-9 flex flex-col justify-between items-center">
+      <p className="text-2xl font-semibold text-white  w-64  text-center">
         Get Started with KoinX for FREE
       </p>
       <p className=" text-white w-[350px]  text-center">

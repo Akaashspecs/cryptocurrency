@@ -98,14 +98,6 @@ export const SementicSliderData: {
       "Lorem ipsum dolor sit amet consectetur. Ac phasellus risus est faucibus metus quis. Amet sapien quam viverra adipiscing condimentum. Ac consectetur et pretium in a bibendum in. Sed vitae sit nisi viverra natoque lacinia libero enim.",
     color: "bg-green-100",
   },
-  {
-    img: "/svjphoto/lettericon.svg",
-    heading:
-      "Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim mattis enim tincidunt.",
-    paragraph:
-      "Lorem ipsum dolor sit amet consectetur. Ac phasellus risus est faucibus metus quis. Amet sapien quam viverra adipiscing condimentum. Ac consectetur et pretium in a bibendum in. Sed vitae sit nisi viverra natoque lacinia libero enim.",
-    color: "bg-red-100",
-  },
 ];
 
 export const AboutBitcoin =

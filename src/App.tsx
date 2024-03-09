@@ -4,7 +4,7 @@ import Suggestion from "./Suggestion";
 
 function App() {
   return (
-    <div className="bg-gray-200 h-screen overflow-scroll">
+    <div className="bg-gray-200 h-screen overflow-y-scroll">
       <Navbar />
       <Content />
       <Suggestion />

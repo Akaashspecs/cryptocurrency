@@ -10,7 +10,7 @@ const AnalystEstimate = () => {
         <div className="rounded-full bg-green-100 flex text-center justify-center items-center text-3xl text-green-400 h-24 w-24">
           76%
         </div>
-        <div className="ml-4 w-32">
+        <div className="ml-4 grow ">
           <AnalystEstimateBarGraph
             label="Buy"
             percentage="w-[76%]"

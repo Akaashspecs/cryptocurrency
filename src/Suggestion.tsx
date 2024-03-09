@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { latestShowApi } from "./API/trendingAPI";
 import SuggestionList from "./SuggestionList";
 import LeftContent from "./LeftContent";
+import RightContent from "./RightContent";
 
 const Suggestion = () => {
   const [cryptoCoins, setCryptoCoins] = useState<
@@ -39,8 +40,8 @@ const Suggestion = () => {
         <SuggestionList heading="You May Also Like" cryptoCoins={cryptoCoins} />
         <SuggestionList heading="Trending Coins" cryptoCoins={cryptoCoins} />
       </div>
-      <div className=" xl:hidden flex justify-center my-3 ">
-        <LeftContent />
+      <div className=" 2xl:hidden flex justify-center my-3 ">
+        <RightContent />
       </div>
     </div>
   );
