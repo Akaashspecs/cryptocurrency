@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { latestShowApi } from "./API/trendingAPI";
 import SuggestionList from "./SuggestionList";
-import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
 
 const Suggestion = () => {
