@@ -38,13 +38,13 @@ const SuggestionList: React.FC<SuggestionListType> = ({
       sliderRef.current.scrollLeft += slider;
     }
   };
-  const removeUnwantedText = (data: string) => {
-    const cleanedString = data
-      .replace(/<\/?[^>]+(>|$)/g, "")
-      .replace(/&nbsp;/g, "\u00A0");
+  // const removeUnwantedText = (data: string) => {
+  //   const cleanedString = data
+  //     ?.replace(/<\/?[^>]+(>|$)/g, "")
+  //     ?.replace(/&nbsp;/g, "\u00A0");
 
-    return cleanedString;
-  };
+  //   return cleanedString;
+  // };
 
   return (
     <div className="relative">
@@ -80,7 +80,7 @@ const SuggestionList: React.FC<SuggestionListType> = ({
                 </div>
               </div>
               <div className="font-semibold text-xl">
-                {removeUnwantedText(data?.item?.data.price)}
+                {/* {removeUnwantedText(data?.item?.data.price)} */}
               </div>
               <div className=" flex justify-center mt-2">
                 <img src={data?.item?.data.sparkline} />

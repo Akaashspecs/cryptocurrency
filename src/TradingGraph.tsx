@@ -1,5 +1,3 @@
-// TradingViewWidget.jsx
-
 import { useEffect, useRef, memo, useState } from "react";
 
 const TrendingGraph = () => {
